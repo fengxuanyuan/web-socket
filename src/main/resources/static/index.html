@@ -78,9 +78,9 @@ limitations under the License.
 
 		function updateTarget() {
 			if (window.location.protocol == 'http:') {
-				document.getElementById('target').value = 'ws://192.168.9.145:8088/send';
+				document.getElementById('target').value = 'ws://localhost:8088/send';
 			} else {
-				document.getElementById('target').value = 'wss://192.168.9.145:8088/send';
+				document.getElementById('target').value = 'wss://localhost:8088/send';
 			}
 		}
 
